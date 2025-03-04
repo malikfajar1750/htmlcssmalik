@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana</title>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: rgb(29, 29, 30);
+            padding: 10px 0;
+            display: flex; 
+            
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            padding: 0;
+            margin: 10px 15px;  
+        }
+        
+
+        nav li {
+            list-style: none;
+            padding: 10px;
+        }
+
+        nav a {
+            font-size: 16px;
+            color: rgb(228, 228, 228);
+            text-decoration: none;
+        
+        }
+
+        .center-H1-p {
+            background-color: rgb(87, 87, 76);
+            padding: 8em;
+            color: aliceblue;
+            text-align: center;
+        }
+
+        .card-center {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 250px;
+            transition: transform 0.3s ease;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .container {
+            padding: 15px;
+            align-items: center;
+            margin-left: 14px;
+        }
+
+        .container h4 {
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            color: aliceblue;
+            padding: 12px;
+            margin-top: 20px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="center-H1-p">
+        <h1>Selamat datang di website sederhana</h1>
+        <p>Pelajari di website ini</p>
+    </div>
+
+    <h3 style="text-align: center; margin-top: 50px; margin:3em;">Category</h3>
+
+    <div class="card-center">
+        <div class="card">
+            <img src="./html.png" alt="HTML">
+            <div class="container">
+                <h4><b>HTML</b></h4>
+                <p>Learn HTML basics</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./apa-itu-css.png" alt="CSS">
+            <div class="container">
+                <h4><b>CSS</b></h4>
+                <p>Learn CSS for styling</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./javascript-logo.jpg" alt="JavaScript">
+            <div class="container">
+                <h4><b>JavaScript</b></h4>
+                <p>Learn JavaScript programming</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2018 Gandalf</p>
+    </footer>
+</body>
+</html>

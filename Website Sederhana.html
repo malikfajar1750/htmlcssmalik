@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website sederhana</title>
+</head>
+<style>
+    *{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        position:  block;
+    }
+
+    nav{
+    background-color: rgb(29, 29, 30);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;   
+    }
+   
+
+    nav ul{
+        padding: 5px 0;
+        margin: 10px;  
+    }    
+     nav li{
+        padding: 11px;
+        display:inline;
+       
+     }
+     nav a{
+        font-size: 16px;
+        color: rgb(228, 228, 228);
+        text-align: center;
+        list-style-type: none;
+        text-decoration: none;
+     }
+.center-H1-p{
+    background-color: rgb(87, 87, 76);
+    padding: 8em;
+    color: aliceblue;
+    text-align: center; 
+    line-height: 5em; 
+}
+
+.Category , h3{
+    padding: 100px;
+    margin-bottom: 13px;
+    display: grid;
+    font-size: large;
+    font-weight: bold;
+    font-size: 1em;
+}
+ h3{
+    padding: 20px;
+    margin-bottom: 1%;
+    font-size: 3em;
+}
+   
+ .card{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+
+ } 
+
+.card ,img, .container{
+    border-radius: 3px;
+    width: 45%;
+    margin: 2em;
+    display: flex;
+    transition: 0.16px;
+    margin: 1em;
+    object-fit: cover;
+    margin-bottom: 13px 0;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+    
+}
+.container, h4{
+    align-items: center;
+    display: inline;
+   padding: 10px 1px;
+   line-height: 2em;
+   margin-left: -1em;
+   align-items: center;
+}
+ h4{
+  margin-left: 1px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 12px 13px;
+    margin-bottom: 12px 14px;
+    margin: 0px;
+}
+
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Protoflio</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </nav>
+    <div class="center-H1-p">
+        <h1>Selamat datang di website sederhana</h1>
+        <p class="isi">pelajari di website ini</p>   
+    </div>
+   
+    <div>
+        <h3>Category</h3> 
+    </div>
+    <div class="crad-center">
+        <div class="card">
+            <img src="./html.png" alt="Avatar"">
+            <div class="container">
+              <h4><b>Html</b></h4> 
+              <p>Architect & Engineer</p> 
+            </div>
+        </div>
+    </div>
+        <div class="card">
+            <img src="./apa-itu-css.png" alt="Avatar"">
+            <div class="container">
+            <h4><b>Css</b></h4> 
+            <p>Architect & Engineer</p> 
+            </div>
+        </div>
+        <div class="card">
+            <img src="./javascript-logo.jpg" alt="Avatar"">
+            <div class="container">
+            <h4><b>javascript</b></h4> 
+            <p>Architect & Engineer</p> 
+            </div>
+        </div>
+    </div>
+    
+<footer>
+    <p>© 2018 Gandalf</p>
+</footer>
+</body>
+</html>

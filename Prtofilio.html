@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malgrapryh</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        nav {
+            display:flex;
+            background-color: #2e8b57;
+            padding: 15px 0;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            align-items: center;
+            
+        }
+
+        
+        nav > h1 {
+            margin-right: 50px;
+            font-size: 2rem;
+            font-size: large;
+            margin-left: 12px;
+            align-items: center;
+            
+        }
+        h1{
+            margin-top: 5px;
+            
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            margin: 0px 50px;
+            font-size: 1rem;
+          
+            padding: 1px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #1e6e45;
+        }
+
+        .img-test {
+            text-align: center;
+            padding-bottom: 100px;
+            background-color: #fff;
+            margin: 1px 0;
+            border-radius: 8px;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .img-test h2 {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            color: #555;
+        }
+
+        .img-test button {
+            padding: 10px 20px;
+            background-color: #2e8b57;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .img-test button:hover {
+            background-color: #1e6e45;
+        }
+
+        article {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px 0;
+            display: flex;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        article ,h3 {
+            font-size: 1.25rem;
+            margin: 25px;
+            display: inline-flex;
+            color: #2e8b57;
+        }
+
+        article p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+            display: inline-table;
+        }
+
+        article mark {
+            background-color: #ffd700;
+            padding: 0 10px;
+        }
+
+        h2, select{
+            padding: 20px;
+            margin: 2px 0px;
+        }
+        select {
+            padding: 12px;
+            font-size: 1rem;
+            margin-top: 20px;
+            color: #ffffff;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: #1e6e45;
+        }
+
+        .Pilih{
+            padding: 20px;
+            margin-top: -50px ;
+        }
+        h4 ,.Tentang{
+            padding: 20px;
+            margin-top: -10px;
+        }
+        .Pilih ,p {
+            line-height: 1.2em;
+            margin: 1px;
+            font-size: medium;
+        }
+        footer {
+            text-align: center;
+            background-color: #2e8b57;
+            color: white;
+            padding: 15px;
+            margin-top: 40px;
+            font-size: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h1>Selamat Datang</h1>
+        <a href="#Home">Home</a>
+        <a href="#Service">Service</a>
+        <a href="#Category">Category</a>
+        <a href="#logout">Logout</a>
+    </nav>
+
+    <!-- Image and Call-to-action -->
+    <div class="img-test">
+        <img src="" alt="">
+        <h2>Lorem ipsum</h2>
+        <button>Click Here</button>
+    </div>
+
+    <!-- Article 1 -->
+    <article>
+        <h3>Contoh</h3>
+        <img src="" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, aliquid facere, asperiores tempora porro odit voluptatum nesciunt iure animi optio recusandae fugiat doloribus consectetur, commodi ipsa. Aliquam, <mark>velit sunt. Modi?</mark></p>
+    </article>
+
+    <!-- Article 2 -->
+    <article>
+        <h3>Contoh</h3>
+        <img src="" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, aliquid facere, asperiores tempora porro odit voluptatum nesciunt iure animi optio recusandae fugiat doloribus consectetur, commodi ipsa. Aliquam, <mark>velit sunt. Modi?</mark></p>
+    </article>
+
+    <!-- Questionnaire -->
+    <h2>Apakah tertarik dengan pelajaran gratis ini?</h2>
+    <div class="Pilih">
+        <select name="Ya-Pilih" id="Ya">
+            <option value="">Silahkan Pilih?</option>
+            <option value="Ya">Ya</option>
+            <option value="Tidak">Tidak</option>
+        </select> 
+    </div>
+
+    <!-- About -->
+    <h4>Tentang Website Ini</h4>
+    <p class="Tentang">Apakah yang Anda maksud dengan "website ini" adalah platform atau situs tempat kita berinteraksi saat ini, yaitu ChatGPT oleh OpenAI? Jika iya, saya bisa memberikan penjelasan lebih lanjut mengenai <em>ChatGPT.</em></p>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2018 Gandalf</p>
+    </footer>
+
+</body>
+</html>
